@@ -1,3 +1,3 @@
-# Pinterest clone in RUBY written by Alexander T
+# Read Me 
 
 This is a pinterest clone application written in Ruby On Rails
