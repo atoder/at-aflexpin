@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'bootstrap-sass'
+gem 'devise', '~> 3.1.0.rc2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -39,7 +40,8 @@ group :production do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt-ruby', '~> 3.0.0', :require => "bcrypt"
 
 # Use unicorn as the app server
 # gem 'unicorn'
