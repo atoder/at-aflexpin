@@ -1,3 +1,4 @@
-# at-pinteresting
+# aflexpin
 
-This is a pinterest clone application written in Ruby On Rails by Alexander T.
+This is my version of a pinterest clone written in Ruby On Rails by Alexander T.
+

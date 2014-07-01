@@ -9,8 +9,12 @@ $brand-primary: #c0392b;
 $jumbotron-bg: white;
 
 
-@import 'bootstrap';
+// Set the correct sprite paths
+$iconSpritePath: asset-path('glyphicons-halflings.png', image);
+$iconWhiteSpritePath: asset-path("glyphicons-halflings-white.png", image);
 
+@import "bootstrap";
+@
 .center {
     text-align: center;
 }
@@ -19,13 +23,4 @@ $jumbotron-bg: white;
     font-weight: bold;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    display: inline;
-    width: auto;
-    height: auto;
-    line-height: inherit;
-    vertical-align: baseline;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-}
+import "bootstrap-responsive";
