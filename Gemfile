@@ -14,7 +14,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'bootstrap-sass'
-gem 'twitter-bootstrap-rails'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 1.20.0'
