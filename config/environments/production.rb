@@ -27,7 +27,10 @@ Rails.application.configure do
 	# config.assets.css_compressor = :sass
 	
 	# do not fallback to assets pipeline if a precompiled asset is missed.
-	config.assets.compile = false
+    # AT: Should be false c hanged this to true becase
+    # but glyphicons get messed up on production
+    # continue checking this thread http://stackoverflow.com/questions/20588786/glyphicon-works-locally-but-not-on-heroku
+	config.assets.compile = true
 	
 	# generate digests for assets urls.
 	config.assets.digest = true
