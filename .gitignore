@@ -18,3 +18,7 @@
 
 # Ignore all vim swp files
 *.swp
+
+# Ignore private information variables
+.env
+Procfile
