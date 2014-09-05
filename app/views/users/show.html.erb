@@ -1,5 +1,5 @@
 <%= render 'pages/home' unless user_signed_in? %>
-<h1 class="center"><%= @user.name %>'s Pins</h1>
+<h1 class="center"><%= @user.name %>'s pins</h1>
 <div id="pins" class="transitions-enabled">
   <% if @pins.count < 1 %>
     <br/>
