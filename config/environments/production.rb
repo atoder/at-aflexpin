@@ -89,7 +89,7 @@ Rails.application.configure do
 
   #Note to set this to your actual host 
   # required for Heroku
- config.action_mailer.default_url_options = { :host => 'aflexpin.herokuapp.com/' }    
+  config.action_mailer.default_url_options = { :host => 'aflexpin.herokuapp.com' }    
 
   # Sets Paperclip to upload images to Amazon S3
   config.paperclip_defaults = {
@@ -109,7 +109,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
       address: "smtp.gmail.com",
       port: 587,
-      domain: ENV["GMAIL_DOMAIN"],
+      domain: "http://www.aflexpin.herokuapp.com",
       authentication: "plain",
       enable_starttls_auto: true,
       user_name: ENV["GMAIL_USERNAME"],
