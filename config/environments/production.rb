@@ -108,7 +108,7 @@ Rails.application.configure do
 
   config.action_mailer.smtp_settings = {
       address: "smtp.gmail.com",
-      port: 587,
+      port: "587",
       domain: "aflexpin.herokuapp.com",
       authentication: "plain",
       enable_starttls_auto: true,
